@@ -2,4 +2,4 @@
 
 ## The result:
 
-[./prompt.png](prompt)
+![prompt](prompt.png)
