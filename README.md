@@ -1,2 +1,5 @@
-# starship-config
-My startship configuration.
+# My startship configuration.
+
+## The result:
+
+[./prompt.png](prompt)

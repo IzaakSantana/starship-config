@@ -1,0 +1,53 @@
+add_newline = false
+
+[username]
+format = '[\[](bold blue)[$user]($style)[@](bold blue)[$hostname](white)'
+style_user = 'dimmed purple'
+show_always = true
+
+[hostname]
+ssh_only = false
+format = '[$hostname]($style)'
+style = 'dimmed purple'
+
+[directory]
+format = ' [$path]($style)[\]](bold blue)[\$](bold white) '
+style = 'bold purple'
+truncation_length = 2 
+truncation_symbol = ".../"
+
+[character]
+disabled = true
+
+[git_branch]
+format = ' [$symbol$branch]($style) '
+symbol = ''
+style = ''
+disabled = true
+
+[package]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[python]
+disabled = true
+
+[dart]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[git_metrics]
+disabled = true
+
+[git_status]
+disabled = true
+
+[cmd_duration]
+disabled = true
