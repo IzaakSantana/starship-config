@@ -6,7 +6,7 @@ format = '''[\[](#6272a4)$fill$directory$fill[\]](#6272a4)
 [username]
 format = '[$user]($style)'
 style_user = '#bd93f9'
-style_root = '#6272a4'
+style_root = '#ff5555'
 show_always = true
 
 [hostname]
