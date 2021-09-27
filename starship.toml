@@ -1,53 +1,28 @@
 add_newline = false
 
+format = '''[\[](#6272a4)$fill$directory$fill[\]](#6272a4)
+[\[](#6272a4)$username[@](#6272a4)$hostname[\]](#6272a4)$character'''
+
 [username]
-format = '[\[](bold blue)[$user]($style)[@](bold blue)[$hostname](white)'
-style_user = 'dimmed purple'
+format = '[$user]($style)'
+style_user = '#bd93f9'
+style_root = '#6272a4'
 show_always = true
 
 [hostname]
 ssh_only = false
 format = '[$hostname]($style)'
-style = 'dimmed purple'
+style = '#bd93f9'
 
 [directory]
-format = ' [$path]($style)[\]](bold blue)[\$](bold white) '
-style = 'bold purple'
-truncation_length = 2 
+format = '[$path](#50fa7b)'
+style = '#6272a4'
+truncation_length = 0
 truncation_symbol = ".../"
 
 [character]
-disabled = true
+format = '\$ '
 
-[git_branch]
-format = ' [$symbol$branch]($style) '
-symbol = ''
-style = ''
-disabled = true
-
-[package]
-disabled = true
-
-[nodejs]
-disabled = true
-
-[python]
-disabled = true
-
-[dart]
-disabled = true
-
-[git_commit]
-disabled = true
-
-[git_state]
-disabled = true
-
-[git_metrics]
-disabled = true
-
-[git_status]
-disabled = true
-
-[cmd_duration]
-disabled = true
+[fill]
+symbol = '.'
+style = '#50fa7b'
