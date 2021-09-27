@@ -19,6 +19,7 @@ format = '[$path](#50fa7b)'
 style = '#6272a4'
 truncation_length = 0
 truncation_symbol = ".../"
+truncate_to_repo = false
 
 [character]
 format = '\$ '
