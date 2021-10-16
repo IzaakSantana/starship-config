@@ -1,7 +1,7 @@
 add_newline = false
 
 format = '''[\[](#6272a4)$fill$directory$fill[\]](#6272a4)
-[\[](#6272a4)$username[@](#6272a4)$hostname[\]](#6272a4)$character'''
+[\[](#6272a4)$username[@](#6272a4)$hostname[\] $git_branch](#6272a4)$character'''
 
 [username]
 format = '[$user]($style)'
@@ -27,3 +27,6 @@ format = '\$ '
 [fill]
 symbol = '.'
 style = '#50fa7b'
+
+#[git_branch]
+
