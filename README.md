@@ -1,9 +1,10 @@
-# My starship prompt configuration.
+# My starship example.configuration.
 
 ## Result:
 
-![Prompt example 1](/src/prompt1.png)
-![Prompt example 2](/src/prompt2.png)
+![Prompt example 1](/src/example1.png)
+![Prompt example 2](/src/example2.png)
+![Git branch example](/src/git_branch_example.png)
 
 ## About:
 
