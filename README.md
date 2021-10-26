@@ -1,4 +1,4 @@
-# My starship example.configuration.
+# My starship configuration.
 
 ## Result:
 
