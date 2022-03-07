@@ -1,4 +1,4 @@
-# My starship configuration.
+# My starship prompt configuration.
 
 ## Result:
 
