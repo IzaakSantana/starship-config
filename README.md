@@ -8,6 +8,7 @@
 
 ## About:
 
+- OS: Linux Mint xfce
 - Shell: [Zsh](https://zsh.sourceforge.io/)
 - Terminal: [Kitty](https://sw.kovidgoyal.net/kitty/)
 - Prompt: [Starship](https://starship.rs/)
